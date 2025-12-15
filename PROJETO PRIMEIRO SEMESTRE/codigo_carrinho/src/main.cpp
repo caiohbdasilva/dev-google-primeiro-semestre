@@ -193,11 +193,9 @@ void loop()
 
  if(measure.RangeMilliMeter <= 200)
  {
-  digitalWrite(in1, 0);
-  digitalWrite(in2, 0);
+    digitalWrite(in2, 0);
 
-  digitalWrite(in3, 0);
-  digitalWrite(in4, 0);
+    digitalWrite(in3, 0);
   }
 if (tempoAtual - tempoAnterior > 250)
 {
